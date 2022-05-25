@@ -1,6 +1,8 @@
 """
 https://leetcode.com/problems/valid-parentheses/submissions/
 
+Keywords: stack
+
 O(N) one pass solution
 
 - Put left-brackets on the stack

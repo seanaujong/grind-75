@@ -1,6 +1,8 @@
 """
 https://leetcode.com/problems/two-sum/
 
+Keywords: dictionary, hashmap
+
 Keep a cache of previous numbers, where the key
 is the number, and the value is its index.
 One-pass O(N) solution.

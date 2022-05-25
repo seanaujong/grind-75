@@ -1,6 +1,8 @@
 """
 https://leetcode.com/problems/merge-two-sorted-lists/submissions/
 
+Keywords: linked list, sentinel node
+
 O(N) one-pass solution
 
 https://leetcode.com/problems/merge-two-sorted-lists/discuss/759870/Python3-Solution-with-a-Detailed-Explanation-dummy-explained
