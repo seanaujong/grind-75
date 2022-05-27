@@ -8,6 +8,11 @@ O(N) one pass solution
 - Put left-brackets on the stack
 - When we hit a right-bracket, compare with the last seen left-bracket.
 - We get the last seen left-bracket by popping it off the stack
+
+Cases:
+
+- More left brackets than right brackets
+- More right brackets than left brackets
 """
 
 class Solution:
@@ -23,10 +28,10 @@ class Solution:
                 # append left brackets
                 stack.append(c)
             else:
-                # pop the rightmost seen left bracket
-                # check if it corresponds with the
-                # current right bracket
+                # first, see if there are more right brackets than left brackets (empty stack)
+                # then check if the brackets match
                 if not stack or mapping[stack.pop()] != c:
                     return False
+        # check if there are more left brackets than right brackets
         return not stack
         
