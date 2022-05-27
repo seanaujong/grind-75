@@ -1,7 +1,7 @@
 """
 https://leetcode.com/problems/best-time-to-buy-and-sell-stock/submissions/
 
-Keywords: Dynamic Programming, Kadane's Algorithm
+Topics: Dynamic Programming, Kadane's Algorithm
 
 For each iteration, we can calculate info in the following order:
 
