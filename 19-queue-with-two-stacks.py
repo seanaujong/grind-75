@@ -4,6 +4,15 @@ https://leetcode.com/problems/implement-queue-using-stacks
 Topics: Stack, Design, Queue
 
 https://leetcode.com/problems/implement-queue-using-stacks/discuss/64198/Share-my-python-solution-(32ms)/179427
+
+Play with this example to help explain why we shift only when s2 is empty:
+
+1 2 3
+-
+
+Peek, then add 4, and go from there.
+
+This optimization gives us O(1) push and O(1) amortized pop
 """
 
 class MyQueue:
